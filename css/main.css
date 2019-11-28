@@ -1,0 +1,137 @@
+/******BASE CSS********/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 1220px;
+    margin: 0 20px;
+}
+
+#specials, #reviews, #contact {
+    height: 210px;
+    font-size: 16px;
+}
+
+.full-width {
+    width: 1220px;
+    border-top: 1px lightgrey solid;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 350px;
+    font-weight: normal;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 20px;
+   
+}
+
+/**********HEADER*******/
+
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+}
+
+header span {
+    color: #77A466;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    color: #77A466;
+    line-height: 23px;
+    list-style: none;
+    padding-left: 10px;
+}
+
+/*********TOP SECTION*******/
+
+img {
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
+
+}
+
+.intro h2 {
+    font-size: 18px;
+    color: #77A466;
+}
+
+.intro p {
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+/***********THIRD WIDTH COLUMNS*******/
+
+h3 {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#specials {
+    border-right: 1px lightgrey solid;
+}
+
+#specials ul {
+    padding: 0px;
+    margin-right: 60px;
+    color: #77A466;
+    list-style: none;
+}
+
+#specials ul li {
+    line-height: 35px;
+
+}
+
+#reviews {
+    border-right: 1px lightgrey solid;
+}
+
+#reviews {
+    line-height: 21px;
+    padding-left: 20px;
+}
+
+#contact {
+    padding-left: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+    line-height: 24px;
+
+}
+
+/***********FOOOTER**************/
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    clear: both;
+    padding-top: 20px;
+    width: 1220px;
+    border-top: 1px lightgrey solid;
+    
+}
+
+footer span {
+    font-family: 'Pacifico', cursive;
+    color: #77A466;
+    font-weight: normal;
+}
